@@ -1,0 +1,21 @@
+/* This styles the container holding all the buttons */
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #00afb9;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f2cc8f;
+  }
+  
